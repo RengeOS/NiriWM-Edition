@@ -58,10 +58,10 @@ done
 mv ./Home-Overlay/defaults/default-wallpaper.jpg $HOME_WALLPAPERS_DIR
 
 # Install icons theme into ~/.icons/
-cd /tmp/ &&
+mkdir -p ./temp/ && cd ./temp/
 git clone https://github.com/RengeOS/Deepin-Icons &&
 cd Deepin-Icons/ &&
 tar -xvf Deepin2022.tar.xz &&
-mv * $HOME_DIR/.icons &&
+mv * ../../skel/.icons &&
 echo "Done! Deepin Icons 2022 has installed!" &&
-cd /tmp/ && rm -rf Deepin-Icons/ && cd .
+cd ../../ && rm -rf ./temp/
