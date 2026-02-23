@@ -1,0 +1,15 @@
+# Maintainer: Gia Phu <crystalforceix@gmail.com>
+pkgname="polkit-gnome-switch"
+pkgver="0.3"
+pkgrel="2"
+pkgdesc="Polkit Gnome Switch for my house on linux"
+arch=("x86_64")
+depends=(
+    "polkit-gnome"
+)
+url="https://github.com/crystalforceix/My-House-On-Linux.git"
+package() {
+  mkdir -p "${pkgdir}/usr/"
+  cp -r "${srcdir}/usr/bin" "${pkgdir}/usr/"
+}
+

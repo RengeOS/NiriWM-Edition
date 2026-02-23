@@ -1,0 +1,127 @@
+# Helix Theme — Editor-like Syntax, Mono UI
+
+# ================= Syntax =================
+
+"attribute" = "#61afef"
+"type" = "#56b6c2"
+"type.enum.variant" = "#56b6c2"
+"constructor" = "#61afef"
+
+"constant" = "#d19a66"
+"constant.character" = "#d19a66"
+"constant.character.escape" = "#c678dd"
+
+"string" = "#98c379"
+"string.regexp" = "#56b6c2"
+"string.special" = "#98c379"
+"string.special.symbol" = "#e06c75"
+
+"comment" = { fg = "#6a737d", modifiers = ["italic"] }
+
+"variable" = "#e5c07b"
+"variable.parameter" = { fg = "#e5c07b", modifiers = ["italic"] }
+"variable.builtin" = "#e06c75"
+"variable.other.member" = "#61afef"
+
+"label" = "#61afef"
+
+"punctuation" = "#abb2bf"
+"punctuation.special" = "#56b6c2"
+
+"keyword" = "#c678dd"
+"keyword.control.conditional" = { fg = "#c678dd", modifiers = ["italic"] }
+
+"operator" = "#abb2bf"
+
+"function" = "#61afef"
+"function.macro" = "#c678dd"
+
+"tag" = "#61afef"
+"namespace" = { fg = "#56b6c2", modifiers = ["italic"] }
+
+"special" = "#61afef"
+
+# ================= Markup =================
+
+"markup.heading.1" = "#e06c75"
+"markup.heading.2" = "#61afef"
+"markup.heading.3" = "#56b6c2"
+"markup.heading.4" = "#d19a66"
+"markup.heading.5" = "#98c379"
+"markup.heading.6" = "#c678dd"
+
+"markup.list" = "#56b6c2"
+"markup.list.unchecked" = "#6a737d"
+"markup.list.checked" = "#98c379"
+
+"markup.bold" = { fg = "#e5c07b", modifiers = ["bold"] }
+"markup.italic" = { fg = "#56b6c2", modifiers = ["italic"] }
+
+"markup.link.url" = { fg = "#61afef", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "#98c379"
+"markup.link.label" = "#d19a66"
+"markup.raw" = "#98c379"
+"markup.quote" = "#6a737d"
+
+# ================= Diff =================
+
+"diff.plus" = "#98c379"
+"diff.minus" = "#e06c75"
+"diff.delta" = "#61afef"
+
+# ================= UI (MONO) =================
+
+"ui.background" = { bg = "#000000" }
+
+"ui.text" = "#ffffff"
+"ui.text.focus" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+"ui.text.inactive" = "#ffffff"
+"ui.text.directory" = "#ffffff"
+
+"ui.linenr" = "#ffffff"
+"ui.linenr.selected" = { fg = "#ffffff", modifiers = ["bold"] }
+
+"ui.statusline" = { fg = "#ffffff", bg = "#000000" }
+"ui.statusline.inactive" = { fg = "#ffffff", bg = "#000000" }
+"ui.statusline.normal" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "#ffffff", bg = "#000000" }
+"ui.window" = "#ffffff"
+"ui.help" = { fg = "#ffffff", bg = "#000000" }
+
+"ui.bufferline" = { fg = "#ffffff", bg = "#000000" }
+"ui.bufferline.active" = { fg = "#000000", bg = "#ffffff", underline = { color = "#ffffff", style = "line" } }
+"ui.bufferline.background" = { bg = "#000000" }
+
+"ui.virtual" = "#ffffff"
+"ui.virtual.indent-guide" = "#ffffff"
+"ui.virtual.inlay-hint" = { fg = "#ffffff", bg = "#000000" }
+"ui.virtual.jump-label" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "#ffffff", fg = "#000000" }
+
+"ui.cursor" = { fg = "#000000", bg = "#ffffff" }
+"ui.cursor.primary" = { fg = "#000000", bg = "#ffffff" }
+"ui.cursor.match" = { fg = "#ffffff", modifiers = ["bold"] }
+
+"ui.highlight" = { bg = "#ffffff", fg = "#000000", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "#ffffff", bg = "#000000" }
+"ui.menu.selected" = { fg = "#000000", bg = "#ffffff", modifiers = ["bold"] }
+
+# ================= Diagnostics =================
+
+"diagnostic.error" = { fg = "#e06c75", underline = { color = "#e06c75", style = "curl" } }
+"diagnostic.warning" = { fg = "#e5c07b", underline = { color = "#e5c07b", style = "curl" } }
+"diagnostic.info" = { fg = "#61afef", underline = { color = "#61afef", style = "curl" } }
+"diagnostic.hint" = { fg = "#56b6c2", underline = { color = "#56b6c2", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+# ================= Fallback =================
+
+error = "#e06c75"
+warning = "#e5c07b"
+info = "#61afef"
+hint = "#56b6c2"

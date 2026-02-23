@@ -1,0 +1,102 @@
+# Don't print a new line at the start of the prompt
+add_newline = true
+
+format = """
+$cmd_duration 󰜥 $directory $git_branch
+$character
+"""
+
+# ================= Character =================
+
+[character]
+success_symbol = "[   ](bold fg:blue)"
+error_symbol   = "[   ](bold fg:red)"
+
+# ================= Package =================
+
+[package]
+disabled = true
+
+# ================= Git =================
+
+[git_branch]
+symbol = "󰘬"
+truncation_length = 12
+truncation_symbol = ""
+style = "fg:cyan"
+format = "󰜥 [ $symbol $branch(:$remote_branch) ](bold fg:cyan)"
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = " "
+
+[git_state]
+format = '[($state $progress_current/$progress_total)](fg:yellow) '
+cherry_pick = "[PICKING](bold red)"
+
+[git_status]
+conflicted = " 🏳 "
+ahead      = " 🏎💨 "
+behind     = " 😰 "
+diverged   = " 😵 "
+untracked  = " 🤷 "
+stashed    = " 📦 "
+modified   = " 📝 "
+staged     = '[++($count)](green)'
+renamed    = " ✍️ "
+deleted    = " 🗑 "
+
+# ================= Host =================
+
+[hostname]
+ssh_only = false
+disabled = false
+trim_at = ".companyname.com"
+format = "[•$hostname](bold fg:black bg:cyan)[](bold fg:cyan)"
+
+# ================= User =================
+
+[username]
+show_always = true
+disabled = false
+style_user = "bold fg:black bg:cyan"
+style_root = "bold fg:white bg:red"
+format = "[](bold fg:cyan)[$user]($style)"
+
+# ================= Directory =================
+
+[directory]
+home_symbol = "  "
+read_only = "  "
+truncation_length = 6
+truncation_symbol = " ••/"
+style = "bold fg:blue"
+format = "[󰉋 $path](bold fg:blue)"
+
+[directory.substitutions]
+"Desktop"   = "  "
+"Documents" = "  "
+"Downloads" = "  "
+"Music"     = " 󰎈 "
+"Pictures"  = "  "
+"Videos"    = "  "
+"GitHub"    = " 󰊤 "
+
+# ================= Cmd Duration =================
+
+[cmd_duration]
+min_time = 0
+format = "[ Time: ](bold fg:yellow)[󰪢 $duration](bold fg:yellow)"
+
+# ================= Line break =================
+
+[line_break]
+disabled = false
+
+# ================= Memory / Time =================
+
+[memory_usage]
+disabled = true
+
+[time]
+disabled = true
