@@ -1,4 +1,4 @@
-# Maintainer: Gia Phu <crystalforceix@gmail.com>
+# Maintainer: Le Nguyen Hoang Gia Phu <crystalforceix@gmail.com>
 pkgname="polkit-gnome-switch"
 pkgver="0.3"
 pkgrel="2"
@@ -7,7 +7,7 @@ arch=("x86_64")
 depends=(
     "polkit-gnome"
 )
-url="https://github.com/crystalforceix/My-House-On-Linux.git"
+url="https://github.com/RengeOS/NiriWM-Edition.git"
 package() {
   mkdir -p "${pkgdir}/usr/"
   cp -r "${srcdir}/usr/bin" "${pkgdir}/usr/"

@@ -6,8 +6,8 @@ mkdir -p ./skel/Pictures/Wallpapers/
 
 # Variable
 HOME_DIR="./skel"
-HOME_CONFIG_DIR="./skel/.config/"
-HOME_WALLPAPERS_DIR="./skel/Pictures/Wallpapers/"
+HOME_CONFIG_DIR="./skel/.config"
+HOME_WALLPAPERS_DIR="./skel/Pictures/Wallpapers"
 
 # Setup
 # List of files and directories to move
@@ -56,3 +56,12 @@ done
 
 # Setup wallpaper
 mv ./Home-Overlay/defaults/default-wallpaper.jpg $HOME_WALLPAPERS_DIR
+
+# Install icons theme into ~/.icons/
+cd /tmp/ &&
+git clone https://github.com/RengeOS/Deepin-Icons &&
+cd Deepin-Icons/ &&
+tar -xvf Deepin2022.tar.xz &&
+mv * $HOME_DIR/.icons &&
+echo "Done! Deepin Icons 2022 has installed!" &&
+cd /tmp/ && rm -rf Deepin-Icons/ && cd .

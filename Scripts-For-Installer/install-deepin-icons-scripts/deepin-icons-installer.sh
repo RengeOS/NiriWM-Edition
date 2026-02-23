@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /tmp/ &&
-git clone https://github.com/crystalforceix/Deepin-Icons &&
+git clone https://github.com/RengeOS/Deepin-Icons &&
 cd Deepin-Icons/ &&
 tar -xvf Deepin2022.tar.xz &&
 mv * ~/.icons &&
