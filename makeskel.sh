@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Le Nguyen Hoang Gia Phu <crystalforceix@gmail.com>
+
 # Init
 mkdir -p ./skel/.config/
 mkdir -p ./skel/Pictures/Wallpapers/
