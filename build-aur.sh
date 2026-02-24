@@ -19,7 +19,7 @@ PKGDIR="$DIR/Packages-AUR"
 LIST=(
 			python-pywalfox
 			hyprlax
-			ttf-material-symbols-variable-git
+			material-symbols-git
 			wlogout-git
 	  	  )
 
