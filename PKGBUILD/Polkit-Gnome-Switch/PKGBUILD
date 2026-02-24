@@ -2,11 +2,12 @@
 pkgname="polkit-gnome-switch"
 pkgver="0.3"
 pkgrel="2"
-pkgdesc="Polkit Gnome Switch for my house on linux"
+pkgdesc="Polkit Gnome Switch for NiriWM Edition"
 arch=("x86_64")
 depends=(
     "polkit-gnome"
 )
+license=('GPL3')
 url="https://github.com/RengeOS/NiriWM-Edition.git"
 package() {
   mkdir -p "${pkgdir}/usr/"
