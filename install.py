@@ -197,7 +197,7 @@ class Installer:
             "xwayland-satellite", "xdg-desktop-portal", "xdg-desktop-portal-gtk",
             "xdg-desktop-portal-gnome", "xorg-xwayland",
             "qt5-base", "qt6-base", "gtk3", "gtk4", "brightnessctl", "nautilus",
-            "gpu-screen-recorder", "slurp", "networkmanager", "libnotify",
+            "slurp", "networkmanager", "libnotify",
             "libpulse", "niri", "waybar", "base-devel", "kitty", "ttf-jetbrains-mono-nerd",
             "pamixer", "ttf-nerd-fonts-symbols", "wlsunset", "hyprlock", "swaync", "pavucontrol"
         ]
