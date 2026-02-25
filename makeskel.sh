@@ -60,6 +60,9 @@ done
 # Setup wallpaper
 mv ./Home-Overlay/defaults/default-wallpaper.jpg $HOME_WALLPAPERS_DIR
 
+# Setup .bash_profile
+mv ./.bash_profile $HOME_DIR
+
 # Install icons theme into ~/.icons/
 mkdir -p ./temp/ && cd ./temp/
 git clone https://github.com/RengeOS/Deepin-Icons &&
