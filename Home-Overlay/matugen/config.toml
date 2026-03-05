@@ -4,7 +4,7 @@ version_check = false
 [templates.hyprlaxmisc]
 input_path = './templates/misc.kdl'
 output_path = '~/.config/niri/misc.kdl'
-post_hook = 'pkill hyprlax && hyprlax {{image}} & disown'
+post_hook = 'pkill hyprlax && sleep 0.5 && hyprlax {{image}} & disown'
 
 [templates.gtk3]
 input_path = './templates/gtk-colors.css'

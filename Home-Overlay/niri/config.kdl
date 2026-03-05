@@ -348,6 +348,9 @@ binds {
     Mod+V { spawn "bash" "-c" "pkill fuzzel || cliphist list | fuzzel  --match-mode fzf --dmenu | cliphist decode | wl-copy"; }
     Mod+Alt+V { spawn "bash" "-c" "pkill fuzzel || cliphist list | fuzzel  --match-mode fzf --dmenu | cliphist delete"; }
 
+    // Select wallpaper
+    Mod+Alt+W { spawn "~/.config/niri/scripts/selectwallpaper.sh"; }
+    
     // Window manager logic
     
     Mod+Left  { focus-column-left; }
