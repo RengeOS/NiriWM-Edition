@@ -200,7 +200,7 @@ class Installer:
             "slurp", "networkmanager", "libnotify",
             "libpulse", "niri", "waybar", "base-devel", "kitty", "ttf-jetbrains-mono-nerd",
             "pamixer", "ttf-nerd-fonts-symbols", "wlsunset", "hyprlock", "swaync", "pavucontrol",
-            "zenity"
+            "zenity", "fastfetch-git"
         ]
 
         print(f"Attempting to install dependencies using {self.aur_helper}...")
