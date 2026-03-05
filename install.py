@@ -199,7 +199,8 @@ class Installer:
             "qt5-base", "qt6-base", "gtk3", "gtk4", "brightnessctl", "nautilus",
             "slurp", "networkmanager", "libnotify",
             "libpulse", "niri", "waybar", "base-devel", "kitty", "ttf-jetbrains-mono-nerd",
-            "pamixer", "ttf-nerd-fonts-symbols", "wlsunset", "hyprlock", "swaync", "pavucontrol"
+            "pamixer", "ttf-nerd-fonts-symbols", "wlsunset", "hyprlock", "swaync", "pavucontrol",
+            "zenity"
         ]
 
         print(f"Attempting to install dependencies using {self.aur_helper}...")
