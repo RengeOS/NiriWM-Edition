@@ -13,5 +13,6 @@ git clone https://github.com/RengeOS/NiriWM-Edition/ && cd NiriWM-Edition/
 python3 install.py
 ```
 
-# Credit
-Image (wallpaper are used in the source code) by <a href="https://pixabay.com/users/ksushlapush-6248087/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6556411">Kseniya Lapteva</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6556411">Pixabay</a>
+# Credits
+
+**Image (wallpaper are used in the source code) by <a href="https://pixabay.com/users/ksushlapush-6248087/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6556411">Kseniya Lapteva</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6556411">Pixabay</a>**
