@@ -21,7 +21,6 @@ LIST=(
 			hyprlax
 			material-symbols-git
 			wlogout-git
-			fastfetch-git
 	  	  )
 
 ## Sort packages
